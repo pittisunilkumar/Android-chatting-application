@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Search"
+        android:id="@+id/search_bar"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:iconTint="@color/white"
+        app:showAsAction="always"></item>
+    <item android:title="Find friend "
+        android:id="@+id/friendtofind"
+        app:showAsAction="never"></item>
+
+    <item android:title="New Group"
+        android:id="@+id/Group_created"
+        app:showAsAction="never"></item>
+    <item android:title="Setting"
+        android:id="@+id/menu_setting_options"
+        app:showAsAction="never"></item>
+
+</menu>

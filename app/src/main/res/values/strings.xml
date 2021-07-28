@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GoChats</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_new">Click here for register</string>
+    <string name="not_register">Already Have Account</string>
+    <string name="register">REGISTER</string>
+    <string name="phonenumber">Phone number</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>

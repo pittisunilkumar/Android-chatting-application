@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "768000799635",
+    "project_id": "jagruthi-53d01",
+    "storage_bucket": "jagruthi-53d01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768000799635:android:0e360ecbd307f5524fae66",
+        "android_client_info": {
+          "package_name": "com.example.gochats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768000799635-i7nnn8jtt1kv1ncateapfsfin1v4ei1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gochats",
+            "certificate_hash": "05830dfafeae28df4f5355ccb3f86d9d0db9c5ca"
+          }
+        },
+        {
+          "client_id": "768000799635-94etq66fpr2ntgmml8vaqv4jc8gr34qn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8BwHnQbchUOtSUKjIt74a7iWpTr2M7h8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768000799635-94etq66fpr2ntgmml8vaqv4jc8gr34qn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

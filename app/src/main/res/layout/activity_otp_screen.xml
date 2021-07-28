@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".otpScreen">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/icon_male_ph"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_below="@id/imageView"
+        android:textSize="21sp"
+        android:textAlignment="center"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Enter the OTP we just sent to you on your given mobile Number" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:id="@+id/pinview"
+        android:layout_height="wrap_content"
+        android:hint="Enter Code"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you didn't recieve a code."
+        android:layout_below="@+id/pinview"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/resend"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend"
+        android:textColor="#f56258"
+        android:layout_below="@id/pinview"
+        android:layout_marginRight="45dp"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/verifybutton"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pinview"
+        android:layout_marginTop="80dp"
+        app:cardBackgroundColor="@color/purple_200">
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="Verify" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

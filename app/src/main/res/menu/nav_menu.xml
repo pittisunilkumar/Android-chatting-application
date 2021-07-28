@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Phone Calls"
+        android:id="@+id/phone"/>
+
+    <item android:title="Demo Vedios"
+        android:id="@+id/shortvedio"/>
+
+
+    <item android:title="Friends"
+        android:id="@+id/Friendsofapp"/>
+
+    <item android:title="Friend Requests"
+        android:id="@+id/Friendrequest"/>
+
+</menu>

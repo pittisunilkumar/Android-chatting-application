@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/message_profile77"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icon_male_ph"/>
+    <TextView
+        android:id="@+id/recevier_message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/message_profile77"
+        android:background="@drawable/bg_text_chat_left"
+        android:text="receiver message here"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/recevertime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recevier_message_text"
+        android:layout_alignStart="@+id/recevier_message_text"
+        android:layout_marginStart="10dp"
+        android:textSize="7dp"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:text="time and date" />
+
+    <TextView
+        android:id="@+id/sender_message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="@+id/recevier_message_text"
+        android:background="@drawable/bg_text_chat_right"
+        android:text="Send message"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/sendertime"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sender_message_text"
+        android:layout_alignParentEnd="true"
+        android:textSize="7dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginEnd="10dp"
+        android:text="sendertime" />
+
+    <ImageView
+        android:id="@+id/message_sender_image_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/message_recevier_image_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="13dp"
+        android:scaleType="centerCrop"/>
+    <VideoView
+        android:id="@+id/message_recevier_vedio_view"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="13dp"
+        android:scaleType="centerCrop"/>
+    <VideoView
+        android:id="@+id/message_sender_vedio_view"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"/>
+
+    <ImageButton
+        android:id="@+id/vedioplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/play"
+        android:layout_marginLeft="360dp" />
+    <ImageButton
+        android:id="@+id/vediopause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pause"
+        android:layout_marginLeft="360dp"/>
+</RelativeLayout>
